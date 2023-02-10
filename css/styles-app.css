@@ -7,3 +7,12 @@
     --degular: "degular", sans-serif;
     --gothic: "itc-avant-garde-gothic-pro", sans-serif;
   }
+
+  .logo-nav-bar {
+    width: 117px;
+    height: 118px;
+  }
+
+  .navbar-toggler {
+    fill: #3c5f49;
+  }
