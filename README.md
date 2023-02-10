@@ -1,3 +1,5 @@
 # IX symphonium
-OPtimisation Web - airflight
+Optimisation Web - airflight
 ##  Équipe
+* Vincent Desjardins 
+* Nicolas St-Martin
