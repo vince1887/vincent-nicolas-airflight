@@ -56,3 +56,6 @@ footer {
 .link-github {
   color: var(--blanc);
 }
+.logo-tim {
+  min-width: 200px;
+}
