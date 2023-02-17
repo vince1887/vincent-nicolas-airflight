@@ -126,3 +126,8 @@ footer {
   border: 1px solid var(--vert-foncer);
   box-shadow: none;
 }
+
+.sec-en-vedette{
+  position:absolute;
+  top: 250px;
+}
