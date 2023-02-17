@@ -10,5 +10,47 @@
   }
 
   .navbar {
-    color: greens;
+    background-color: var(--vert-moyen);
+    font-family: var(--gothic);
+  }
+
+  .navbar-toggler {
+    fill: #3c5f49;
+  }
+
+  #mainNav .nav-item:nth-child(1) {
+    border-left: solid var(--ver-pale) 2px;
+    border-right: solid var(--ver-pale) 1px;
+  }
+
+  #mainNav .nav-item:nth-child(2) {
+    border-left: solid var(--ver-pale) 1px;
+    border-right: solid var(--ver-pale) 1px;
+  }
+
+  #mainNav .nav-item:nth-child(3) {
+    border-left: solid var(--ver-pale) 1px;
+    border-right: solid var(--ver-pale) 2px;
+  }
+
+  .logo-nav {
+    height:40px;
+  }
+
+  .scrollspy-example {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .pied-de-page {
+    background-color: var(--vert-moyen);
+    color: var(--blanc);
+  }
+
+  footer a {
+    color: var(--blanc);
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: var(--ver-pale);
   }
