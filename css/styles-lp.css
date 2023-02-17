@@ -51,9 +51,23 @@ footer a:hover {
   width: 100%;
   max-width: 60%;
   aspect-ratio: 5 / 9;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.appli-photo {
+  border-radius: 10%;
 }
 
 .compagnie-brand {
   max-width: 80%;
   height: auto;
+}
+
+#scrollspyHeading2 {
+  margin-bottom: 50vh;
+}
+
+#scrollspyHeading3 {
+  margin-bottom: 50vh;
 }
