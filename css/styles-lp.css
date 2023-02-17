@@ -47,8 +47,9 @@ footer a:hover {
   color: var(--ver-pale);
 }
 
-.appli-photo {
-  width: 50%;
+.appli-photo-div {
+  width: 100%;
+  max-width: 60%;
   aspect-ratio: 5 / 9;
 }
 
