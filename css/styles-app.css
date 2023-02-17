@@ -49,4 +49,10 @@ nav {
 
 footer {
   background-color: var(--vert-foncer);
+  font-family: var(--degular);
+  font-weight: 300;
+  color: var(--blanc);
+}
+.link-github {
+  color: var(--blanc);
 }
