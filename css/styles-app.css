@@ -62,30 +62,10 @@ footer {
   min-width: 200px;
 }
 
-.searchbar {
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 .form {
   position: relative;
 }
 
-.form .fa-search {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #9ca3af;
-}
-
-.form span {
-  position: absolute;
-  right: 17px;
-  top: 13px;
-  padding: 2px;
-  border-left: 1px solid var(--gris);
-}
 
 .left-pan {
   padding-left: 7px;
