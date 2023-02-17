@@ -29,10 +29,12 @@
 nav {
   background-color: var(--blanc);
 }
-.navbar-brand {
+.name-logo {
   font-family: var(--degular);
   font-weight: 900;
+  color: var(--vert-foncer);
 }
+
 .profile-pic {
   background-color: black;
   width: 50px;
