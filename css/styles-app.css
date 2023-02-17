@@ -109,4 +109,40 @@ footer {
 .filter-recherche {
   position: absolute;
   top: 170px;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.btn-primary {
+  background-color: white;
+  color: var(--vert-foncer);
+  border: 1px solid var(--vert-foncer);
+  transition-property: background-color, color, border;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  box-shadow: none;
+}
+.btn-primary:hover {
+  background-color: var(--vert-foncer);
+  color: white;
+  border: 1px solid var(--vert-foncer);
+  box-shadow: none;
+}
+.btn-primary:active {
+  background-color: var(--vert-foncer);
+  color: white;
+  border: 1px solid var(--vert-foncer);
+  box-shadow: none;
+}
+.btn-primary:focus {
+  background-color: var(--vert-foncer);
+  color: white;
+  border: 1px solid var(--vert-foncer);
+  box-shadow: none;
+}
+.btn-primary:visited {
+  background-color: var(--vert-foncer);
+  color: white;
+  border: 1px solid var(--vert-foncer);
+  box-shadow: none;
 }
