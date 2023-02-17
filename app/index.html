@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>IX symphonie</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -65,8 +66,64 @@
         </div>
       </nav>
     </div>
-    <div class="main"></div>
-    <div class="footer"></div>
+    <div class="main">
+      <!--barre de recherche-->
+
+      <div class="container searchbar">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-6">
+            <div class="form">
+              <i class="fa fa-search"></i>
+              <input
+                type="text"
+                class="form-control form-input"
+                placeholder="Rechercher une oeuvre ou un artiste...."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container filter-recherche">
+        <ul>
+          <li>
+            <button type="button" class="btn btn-primary">Toutes</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary">
+              Instalation interactives
+            </button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary">Concert</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-primary">Performance</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="pied-de-page mt-4 p-4 fixed-bottom">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-sm-6">
+            <div>Nicolas St-martin</div>
+            <div>Vincent Desjardins</div>
+            <a
+              class="link-github"
+              href="https://github.com/vince1887/vincent-nicolas-airflight"
+              >https://github.com/vince1887/vincent-nicolas-airflight</a
+            >
+            <div>©2023</div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <img
+              src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg"
+              class="tim-logo"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
