@@ -9,9 +9,6 @@
 
   }
 
-  body, html {
-    height: 200%;
-  }
   .navbar {
     background-color: var(--vert-moyen);
     font-family: var(--gothic);
@@ -38,4 +35,13 @@
 
   .logo-nav {
     height:40px;
+  }
+
+  .scrollspy-example {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .pied-de-page {
+    background-color: var(--vert-foncer);
   }
