@@ -43,5 +43,14 @@
   }
 
   .pied-de-page {
-    background-color: var(--vert-foncer);
+    background-color: var(--vert-moyen);
+    color: var(--blanc);
+  }
+
+  footer a {
+    color: var(--blanc);
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: var(--ver-pale);
   }
