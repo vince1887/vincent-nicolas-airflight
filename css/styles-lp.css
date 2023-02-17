@@ -30,10 +30,6 @@
 .logo-nav {
   height:40px;
 }
-.scrollspy-example {
-  height: 100%;
-  overflow-y: scroll;
-}
 
 .pied-de-page {
   background-color: var(--vert-moyen);
@@ -52,11 +48,13 @@ footer a:hover {
   max-width: 60%;
   aspect-ratio: 5 / 9;
   overflow: hidden;
-  border-radius: 20%;
+  
 }
-
 .appli-photo {
-  border-radius: 10%;
+  border-radius: 30px;
+  border: solid var(--blanc) 3px;
+  width: 100%;
+  height: 100%;
 }
 
 .compagnie-brand {
