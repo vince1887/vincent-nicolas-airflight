@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="robots" content="noindex" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,30 +16,43 @@
     <link rel="stylesheet" href="https://use.typekit.net/txv3eab.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/styles-app.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
   </head>
   <body>
     <div class="navbar">
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Affichage/masquage de la navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="mainNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="page-1.html" class="nav-link">acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a href="page-2.html" class="nav-link">horraire</a>
+          </li>
+          <li class="nav-item">
+            <a href="page-3.html" class="nav-link">billeterie</a>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="../assets/04_logo/Logo_app_original – 1.png"
+          class="img-fluid logo-nav-bar"
+      /></a>
+    </div>
 
-              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div id="mainNav" class="collapse navbar-collapse">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a href="page-1.html" class="nav-link">acceuil</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="page-2.html" class="nav-link">horraire</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="page-3.html" class="nav-link">billeterie</a>
-                      </li>
-                  </ul>
-              </div>
-              <a class="navbar-brand" href="index.html"><img src="../assets/04_logo/Logo_app_original – 1.png" class="img-fluid logo-nav-bar"></a>
-          </div>
-    
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
