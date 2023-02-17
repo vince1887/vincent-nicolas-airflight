@@ -54,3 +54,7 @@
   footer a:hover {
     color: var(--ver-pale);
   }
+
+  .Hero-container {
+    height: 100vh;
+  }
