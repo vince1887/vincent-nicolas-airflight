@@ -57,3 +57,23 @@
 /*---------- # Section Hero-----------*/
 /*---------- # Styles Cartes-----------*/
 /*---------- # Styles Footer-----------*/
+
+
+
+
+
+
+/* scss 
+$white: #ffffff;
+
+$theme-colors: (
+    "light":      #f6f6f6,
+    "dark":       #434343,
+    "primary":    #53c58e,
+    "secondary":  #90e4bb,
+    "info":       #3c5f49,
+    "success":    #2fc244,
+    "warning":    #fccc2a,
+    "danger":     #fb1e4d,
+);
+*/
