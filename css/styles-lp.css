@@ -89,3 +89,11 @@ footer a:hover {
 .section-features, .FAQ{
   background-color: var(--blanc);
 }
+
+.infolettre {
+  background-image: url("/assets/02_images_unsplash/infolettre-fond.jpg");
+}
+
+.colonne-infolettre {
+  background-color: rgba(144, 228, 187, 0.8);
+}
