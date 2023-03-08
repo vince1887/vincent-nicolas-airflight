@@ -86,6 +86,6 @@ footer a:hover {
   color: var(--vert-moyen)
 }
 
-.section-features{
+.section-features, .FAQ{
   background-color: var(--blanc);
 }
