@@ -66,7 +66,6 @@ footer {
   position: relative;
 }
 
-
 .left-pan {
   padding-left: 7px;
 }
@@ -87,10 +86,7 @@ footer {
 }
 
 .filter-recherche {
-  position: absolute;
-  top: 170px;
-  left: 50vw;
-  transform: translateX(-50%);
+  margin-top: 10px;
 }
 
 .btn-primary {
@@ -127,7 +123,6 @@ footer {
   box-shadow: none;
 }
 
-.sec-en-vedette{
-  position:absolute;
-  top: 250px;
+.sec-en-vedette {
+  margin-top: 10px;
 }
