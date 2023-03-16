@@ -124,5 +124,34 @@ footer {
 }
 
 .sec-en-vedette {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+.card-title {
+  text-decoration: none;
+}
+.card-text {
+  color: var(--gris);
+}
+
+a.btn-primary {
+  margin-top: 5px;
+}
+
+.card-img-top {
+  height: 20vh;
+  object-fit: cover;
+  object-position: 50 50;
+}
+
+#en-vedette {
+  width: 140%;
+}
+
+.autre.row {
+  margin-left: 4px;
+  margin-top: 20px;
 }
