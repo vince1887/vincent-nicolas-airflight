@@ -137,6 +137,10 @@ a {
   color: var(--gris);
 }
 
+.card:hover .card-body {
+  opacity: 70%;
+}
+
 a.btn-primary {
   margin-top: 5px;
 }
@@ -154,4 +158,35 @@ a.btn-primary {
 .autre.row {
   margin-left: 4px;
   margin-top: 30px;
+}
+.bi-arrow-left {
+  color: var(--gris);
+}
+.bi-heart {
+  color: var(--gris);
+}
+.navbar {
+  min-height: 66px;
+}
+
+.bg-art-img {
+  height: 63vw;
+}
+
+div.container.article {
+  background-color: var(--blanc);
+  border-radius: 15px;
+}
+
+.bi-calendar {
+  color: var(--gris);
+}
+
+.card-header.art {
+  background-color: var(--vert-foncer);
+  color: var(--blanc);
+}
+
+form {
+  color: var(--gris);
 }
