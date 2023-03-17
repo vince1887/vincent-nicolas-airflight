@@ -1,8 +1,9 @@
 var swiper = new Swiper(".mySwiper", {});
 
-var swiperLp = new Swiper(".swiper-screenshots", {
+const swiperLp = new Swiper(".swiper-screenshots", {
     loop: true,
     slidesPerView: 1,
+    spaceBetween: 100,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
